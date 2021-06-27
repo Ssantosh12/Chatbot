@@ -60,7 +60,7 @@ output = numpy.array(output)
 
 # now we create the neural networks
 
-tensorflow.reset_default_graph()
+#tensorflow.reset_default_graph()  
 
 net = tflearn.input_data(shape=[None, len(training[0])])
 net = tflearn.fully_connected(net, 8)
